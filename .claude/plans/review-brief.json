@@ -1,0 +1,12 @@
+{
+  "task_id": "TASK-20251007-1430",
+  "iteration": 1,
+  "references": {
+    "checklist_analysis": ".claude/results/checklist-output.json",
+    "writer_output": ".claude/results/writer-output.json"
+  },
+  "review_focus": {
+    "priority_areas": ["security", "correctness"],
+    "acceptance_criteria_reference": ["JWT válido", "Refresh funcional"]
+  }
+}

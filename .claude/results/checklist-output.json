@@ -1,0 +1,10 @@
+{
+  "agent": "checklist-agent",
+  "verdict": "complete",
+  "analysis": { "overall_score": 8.5 },
+  "requirements": {
+    "explicit": ["JWT com /login e /refresh", "Tokens com duração especificada"],
+    "acceptance_criteria": ["JWT válido gerado", "Refresh funcional", "Testes"]
+  },
+  "next_action": "proceed_to_implementation"
+}

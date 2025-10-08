@@ -1,0 +1,10 @@
+{
+  "agent": "fixer-agent",
+  "status": "success",
+  "fixes_applied": [
+    {"issue_id": 1, "status": "fixed"},
+    {"issue_id": 2, "status": "fixed"}
+  ],
+  "summary": { "critical_resolved": "100%", "high_resolved": "100%" },
+  "next_action": { "recommendation": "send_back_to_reviewer" }
+}

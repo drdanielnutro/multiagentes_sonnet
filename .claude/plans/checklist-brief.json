@@ -1,0 +1,10 @@
+{
+  "task_id": "TASK-20251007-1430",
+  "task_type": "feature",
+  "description": "Implementar autenticação JWT com endpoints /login e /refresh",
+  "context": {
+    "project_info": "API REST em Node.js/Express",
+    "relevant_files": ["src/app.ts", "src/auth/"],
+    "constraints": ["Usar biblioteca jsonwebtoken", "Access token: 1h, Refresh: 7d"]
+  }
+}
