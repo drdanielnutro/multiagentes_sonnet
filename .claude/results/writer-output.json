@@ -1,0 +1,10 @@
+{
+  "agent": "writer-agent",
+  "status": "success",
+  "files_changed": {
+    "created": ["src/auth/jwt.service.ts", "src/auth/auth.controller.ts"]
+  },
+  "tests_created": { "tests_passed": 24, "coverage": { "lines": 87 } },
+  "validation": { "linter": {"status": "passed"}, "tests": {"status": "passed"} },
+  "next_action": "ready_for_review"
+}

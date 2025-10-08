@@ -1,0 +1,12 @@
+{
+  "agent": "reviewer-agent",
+  "verdict": "needs_revision",
+  "issues": [
+    {"id": 1, "severity": "critical", "title": "JWT secret hardcoded"},
+    {"id": 2, "severity": "high", "title": "Refresh token não invalidado"}
+  ],
+  "next_action": {
+    "action": "send_to_fixer",
+    "priority_fixes": [1, 2]
+  }
+}

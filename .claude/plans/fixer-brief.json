@@ -1,0 +1,7 @@
+{
+  "task_id": "TASK-20251007-1430",
+  "iteration": 1,
+  "review_report": ".claude/results/reviewer-output.json",
+  "priority_fixes": [1, 2],
+  "time_budget": "30min"
+}

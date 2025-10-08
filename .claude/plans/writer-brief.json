@@ -1,0 +1,12 @@
+{
+  "task_id": "TASK-20251007-1430",
+  "requirements": {
+    "checklist_analysis_file": ".claude/results/checklist-output.json",
+    "explicit_requirements": ["JWT com /login e /refresh"],
+    "acceptance_criteria": ["JWT válido", "Refresh funcional", "Testes"]
+  },
+  "expected_outputs": {
+    "files_to_create": ["src/auth/jwt.service.ts", "src/auth/auth.controller.ts"],
+    "tests_to_create": ["src/auth/jwt.service.test.ts"]
+  }
+}

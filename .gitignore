@@ -33,3 +33,6 @@ htmlcov/
 *.tmp
 *.bak
 *.swp
+
+# Claude state
+.claude/state/
